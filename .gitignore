@@ -1,0 +1,61 @@
+﻿# ==============================
+# Secrets and credentials
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+credentials.json
+secrets.json
+
+# ==============================
+# Python environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Python cache and compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Downloaded Garmin data
+# ==============================
+data/
+downloads/
+output/
+*.csv
+*.fit
+*.gpx
+*.tcx
+*.zip
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# IDE settings
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Windows / OS files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
