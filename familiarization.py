@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 # 1. Load data and filter for the target date
 csv_file = "garmin_heart_rate.csv"
-target_date = "2026-08-19"
+target_date = "2026-11-05"
 
 df = pd.read_csv(csv_file)
 day_df = df[df["calendar_date"] == target_date].copy()
